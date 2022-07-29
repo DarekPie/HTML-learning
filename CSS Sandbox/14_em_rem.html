@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Em & Rem Units</title>
+  <style>
+    #box-1{
+        font-size: 20px;
+    }
+
+    /* 1.5- ile razy ma byc powiekszone wzgledem poprzednich ustawien */
+    #box-1 p{
+      font-size: 1.5em;
+      padding: 1em;    /*Znow wgzledem poprzednich ustawien czyli linijke wyzej*/
+    }
+/* uwaga! */
+    /* Zagniedzone! Uwaga- jesli rodzic zostaje powiekszony o 1.2 wzgledem poprzedniego */
+    /* to zagniezdzone znow zostaje powiekszone o 1.2 wzgledem swojego rodzica */
+    /* efekt? - pierwsze 1 2 3 ma 24 px a zagniezdzone 1 2 i 3 już 28.8 */
+    #box-1 ul{
+      font-size: 1.2em;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="box-1">
+    <h3>Box One</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur hic enim sunt ullam reprehenderit qui modi velit tenetur sint necessitatibus?</p>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
+      </li>
+      <li>4</li>
+    </ul>
+  </div>
+  <div id="box-2">
+    <h3>Box One</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur hic enim sunt ullam reprehenderit qui modi velit tenetur sint necessitatibus?</p>
+  </div>
+</body>
+</html>
