@@ -53,6 +53,8 @@
 }
 
 /* Odwraca kolejnosc kolumn  */
+
+
 .flex-columns.flex-reverse .row{
   flex-direction: row-reverse;
 }
