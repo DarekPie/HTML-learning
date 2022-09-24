@@ -1,10 +1,10 @@
-/* Text collors */
-.text-primary{
+/* Text colors */
+.text-primary {
   color: #28a745;
 }
 
-.text-secendory {
-  color:#0284d0;
+.text-secondary {
+  color: #0284d0;
 }
 
 /* Button */
@@ -18,55 +18,65 @@
   border-radius: 5px;
 }
 
-.btn:hover{
+.btn:hover {
   opacity: 0.9;
 }
 
-.btn-primary, .bg-primary{
-  background:#28a745;
+.btn-primary,
+.bg-primary {
+  background: #28a745;
   color: #fff;
 }
-.btn-secondary, .bg-secondary{
-  background:#0284d0;
+
+.btn-secondary,
+.bg-secondary {
+  background: #0284d0;
   color: #fff;
 }
-.btn-dark, .bg-dark{
-  background:#333;
+
+.btn-dark,
+.bg-dark {
+  background: #333;
   color: #fff;
 }
-.btn-light{
-  background:#f4f4f4;
+
+.btn-light,
+.bg-light {
+  background: #f4f4f4;
   color: #333;
 }
 
+.btn-outline {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
 /* Flex items */
-.flex-items{
+.flex-items {
   display: flex;
-  text-align: centerl;
+  text-align: center;
   justify-content: center;
   text-align: center;
   height: 100%;
 }
 
-.flex-items > div{
+.flex-items>div {
   padding: 20px;
 }
 
-/* Odwraca kolejnosc kolumn  */
-
-
-.flex-columns.flex-reverse .row{
+/* Flex columns */
+.flex-columns.flex-reverse .row {
   flex-direction: row-reverse;
 }
 
-.flex-columns .row{
+.flex-columns .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
 }
 
-.flex-columns .column{
+.flex-columns .column {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
@@ -78,13 +88,13 @@
   height: 100%;
 }
 
-.flex-columns img{
+.flex-columns img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.flex-columns .column-2{
+.flex-columns .column-2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -92,26 +102,21 @@
   padding: 30px;
 }
 
-.flex-columns h2{
+.flex-columns h2 {
   font-size: 40px;
   font-weight: 100;
 }
 
-.flex-columns h4{
+.flex-columns h4 {
   margin-bottom: 10px;
 }
 
-.flex-columns p{
+.flex-columns p {
   margin: 20px 0;
 }
 
-.btn-outline {
-  background: transparent ;
-  border: 1px solid #fff
-}
-
 /* Section header */
-.section-header{
+.section-header {
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -121,7 +126,7 @@
 }
 
 .section-header h2 {
-  font-size:  40px;
+  font-size: 40px;
   margin: 20px 0;
 }
 
@@ -130,16 +135,14 @@
 }
 
 /* Flex grid */
-.flex-grid .row{
+.flex-grid .row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
 }
 
-/* Ustawianie img w dwie linie */
 .flex-grid .column {
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
 }
-
