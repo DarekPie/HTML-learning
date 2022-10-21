@@ -1,0 +1,23 @@
+{
+  "name": "html-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarekPie/HTML-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarekPie/HTML-learning/issues"
+  },
+  "homepage": "https://github.com/DarekPie/HTML-learning#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
