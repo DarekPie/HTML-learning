@@ -1,4 +1,6 @@
-@import 'config';
+@import 'configs';
+
+
 
 // General Styles
 * {
@@ -29,4 +31,27 @@ h4 {
 
 img {
   width: 100%;
+}
+
+// Logo
+#logo {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+// Main Nav
+
+// Header
+#header {
+  // background: red;
+
+  &-home {
+    background: $bg-image no-repeat center right / cover;
+    height: 100vh;
+    color: #fff;
+  }
+
+  // &-inner {}
 }
