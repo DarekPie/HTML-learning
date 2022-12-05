@@ -1,5 +1,6 @@
 @import 'configs';
 @import 'utilities';
+@import 'item_grid';
 
 
 
@@ -272,7 +273,7 @@ img {
         width: 70%;
       }
     }
-  }
+  } 
 
   // About D
   &-d{
@@ -331,5 +332,5 @@ img {
         background: $main-color;
       }
     }
-  }
+  } 
 }
