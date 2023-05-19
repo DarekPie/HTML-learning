@@ -1,15 +1,18 @@
 @import "configs";
 @import 'utilities';
 @import 'item_grid';
+// Import Media Queries 
+@import 'media';
+
   
 //General Styles
 * {
-  margin: 0;
+  margin: 0; 
   padding: 0;
 }
 
 body {
-  font-family: "Dosis", sans-serif;
+  font-family: "Dosis", sans-serif; 
   line-height: 1.6;
   background: #fff;
 }
@@ -41,6 +44,7 @@ img {
 
   ul{
     display: flex;
+    padding-top: 1.5rem;
   }
 
   li{
@@ -60,7 +64,7 @@ img {
     }
 
     &.current{
-      border-color: $main-color;
+      border-color: $main-color; 
     }
   }
 }
@@ -69,9 +73,9 @@ img {
 // Logo
 #logo{
   width: 180px;
-  height: 140px;
+  height: 140px; 
   color: #fff;
-  text-transform: uppercase;
+  text-transform: uppercase; 
 }
 
 // Header
